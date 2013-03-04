@@ -1,0 +1,9 @@
+<aegis>
+    <request>
+        <credential name="GRP::calendar" />
+        <credential name="GRP::metadata-users" />
+        <credential name="TrackerReadAccess" />
+        <credential name="TrackerWriteAccess" />
+        <for path="/opt/organizer-reader/bin/organizer-reader" />
+    </request>
+</aegis>

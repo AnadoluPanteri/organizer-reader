@@ -1,0 +1,15 @@
+Source: organizer-reader
+Section: user/office
+Priority: extra
+Maintainer: Thomas Perl <m@thp.io>
+Build-Depends: debhelper (>= 8.0.0), libqt4-dev, libqtm-organizer-dev
+Standards-Version: 3.9.2
+Homepage: http://thp.io/2012/maemo/
+Vcs-Git: git://github.com/harmattan/organizer-reader.git
+Vcs-Browser: http://github.com/harmattan/organizer-reader/
+
+Package: organizer-reader
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Simple Organizer Reader Example
+ Shows how to read events from the organizer.
